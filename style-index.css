@@ -1,0 +1,765 @@
+      
+       
+       
+       /* --------Genral--------- */
+*{
+    padding: 0%;
+margin:0%;
+box-sizing: border-box;
+font-family: 'Source Sans Pro', sans-serif;
+}
+.clr{
+    clear: both;
+}
+.contanir{
+    padding:70px 20px;
+}
+a{
+    text-decoration: none;
+}
+.smallline{
+    width:10%;
+    margin:auto;
+    
+    border-bottom: solid rgb(255,48,91) 1px;
+    padding-bottom:5px;
+}
+.bigline{
+    width:20%;
+    margin:auto;
+    border-bottom: solid rgb(255,48,91)1px;
+    padding-bottom:5px;
+   
+}
+            /* ----------- home ------------ */
+.home{
+    background-image: url(img/slider/slider-01.jpg);
+    height:100vh;
+    background-size: 100% 100%;
+   position: relative;
+   overflow: auto;
+}
+ .hometext{
+ width: 40%;
+    text-align:center;
+  
+  position: absolute;
+  top:35%;
+  left:29%;
+    
+   
+}
+.hometext h2{
+   padding-bottom: 10px;
+    Font-size: 24px;
+
+   
+   font-weight: 600;
+    
+    Line-height: 26.4px;
+    
+     color: rgb(255, 255, 255);
+}
+.hometext h1{
+    padding-bottom: 10px;
+Font-size: 70px;
+
+Font-weight: 700;
+
+Line-height: 77px;
+
+color: rgb(255, 48, 91);
+}
+.hometext h3{
+ 
+
+Font-size: 26px;
+
+Font-weight: 300;
+
+Line-height: 31.2px;
+
+ color: rgb(255, 255, 255);
+}
+.homeImgOpcity{
+    width:100%;
+    height:100%;
+    background-color:rgba(15,15,15,0.8);
+    position:absolute;
+    top:0;
+    left:0;
+}
+.navbar{
+    position: absolute;
+    top:5%;
+   right:0;
+   
+    width:100%
+   
+}
+.navbaricon{
+    float:right;
+    width:58%
+ 
+}
+
+.navbaricon a{
+    font-family: 'Roboto', sans-serif;
+    Font-size: 16px;
+
+Font-weight: 300;
+
+Line-height: 20px;
+
+color: rgb(255, 255, 255);
+padding-left:20px;
+
+
+}
+.navbar .homeicon{
+    color: rgb(255, 48, 91);
+}
+.pageicon{
+    font-family: 'Roboto', sans-serif;
+    Font-size: 24px;
+
+Font-weight: 800;
+
+Line-height: 25px;
+
+color: rgb(255, 48, 91);
+
+padding-left:20px;
+}
+ .navbariconhover:hover{
+    color:rgb(255, 48, 91);
+
+}
+
+@media screen and (max-width: 600px) {
+   
+    div.navbaricon{
+      display: none;
+    }
+   
+    .hometext h3{
+        Font-size: 20px;
+        }
+        .hometext h1{
+            font-size:30px;
+            Line-height: 30px;
+        }
+        .hometext h2{
+
+            font-size:16px;
+        }
+  }
+
+
+/*         about            */
+
+.aboutimg{
+    position: relative;
+    float:left;
+width:50%;
+
+padding-right:50px;
+ 
+    overflow:hidden;
+}
+.aboutimg img{
+    width:66%;
+    height:95%;
+    position: absolute;   
+   left:33%;
+   top:10%;
+border-radius: 5px;
+
+}
+
+.aboutText{
+    float:right;
+    width: 50%;
+   padding-bottom:30px;
+
+
+}
+.letterI{
+    color: rgb(255, 48, 91);
+    padding-right: 5px;
+}
+.aboutText h2{
+    Font-size: 34px;
+
+Font-weight: 600;
+
+Line-height: 22px;
+
+ color: rgb(51, 51, 51);
+ padding-bottom:10px;
+ padding-left:20px;
+}
+.dashline{
+    border: dashed 0.5px  rgb(85, 85, 85);
+   margin-left:20px;
+   margin-top:20px;
+}
+.blacktext{
+    padding-left:20px;
+    Font-size: 16px;
+
+Font-weight: 500;
+
+Line-height: 16px;
+
+ color: rgb(51, 51, 51); 
+ float:left;
+
+
+}
+.location{
+    padding-left:6rem;
+}
+.text{
+  padding-left:3rem;
+}
+.graytext{
+    float:left;
+    Font-size: 16px;
+
+    Font-weight: 400;
+    
+    Line-height: 16px;
+    
+    color: rgb(85, 85, 85);
+    padding-left:10px;
+}
+.aboutitem{
+    float:left;
+    overflow:hidden;
+    margin-top:10px;
+}
+.aboutText p {
+    Font-size: 16px;
+
+Font-weight: 400;
+
+Line-height: 25px;
+
+color: rgb(85, 85, 85);
+padding-left:20px;
+}
+.aboutText button{
+    background-color:rgb(255, 48, 91);
+  
+    padding:10px 25px;
+    margin:20px 10;
+ border-radius: 5px;
+font-size:16px;
+Font-weight: 400;
+
+Line-height: 25px;
+border:none;
+ color: rgb(255, 255, 255);
+}
+.aboutText button i{
+    padding-left:10px;
+}
+.whiteblock{
+    border:solid rgb(85,85,85) 8px;
+    border-radius: 5px;;
+    height:70%;
+    width:70%;
+    float:right;
+    
+  
+}
+
+.socialmediahover{
+    background-color: rgba(15,15,15,0.5);
+    width:66%;
+    height:95%;
+    position: absolute;
+   top:110%;
+   left:33%;
+  
+    border-radius: 5px;
+    text-align: center;
+  padding-top:50%;
+  transition:top 0.6s;
+
+   
+
+}
+
+.socialmediahover a{
+    color:white;
+    padding-left:10px;
+} 
+.socialmediahover a:hover{
+    color: rgb(255, 48, 91);
+}
+.aboutimghover:hover .socialmediahover
+{
+   
+top:10%;
+}
+.aboutText button:hover{
+    background-color:red;
+}
+
+/* Our Services */
+.services{
+    background-color: rgb(241,241,241);
+    text-align: center;
+    overflow:hidden;
+}
+.services h2{
+  
+    Font-size: 40px;
+
+Font-weight: 800;
+
+Line-height: 30px;
+
+color: rgb(51, 51, 51);
+padding-bottom:20px;
+}
+.servicesitem{
+    float:left;
+   padding:20px 20px;
+    width:25%;
+    margin-top:3rem;
+    transition: background-color 1s ;
+}
+.servicesitem i{
+    color: rgb(255, 48, 91);
+   font-size: 25px;
+  margin-bottom: 20px;
+  transition: transform 1s;
+}
+.servicesitem h3{
+ 
+
+Font-size: 20px;
+
+Font-weight: 600;
+
+Line-height: 26.4px;
+
+color: rgb(51, 51, 51);
+margin-bottom: 10px;
+}
+.servicesitem p{
+    font-family: 'Roboto', sans-serif;
+
+Font-size: 16px;
+
+Font-weight: 400;
+
+Line-height: 25px;
+
+color: rgb(85, 85, 85);
+}
+.servicesitem:hover{
+    background-color: white;
+}
+.servicesitem:hover i{
+  transform: scale(1.2,1.2);
+  
+}
+/* Our Portfolio */
+.Portfolio{
+
+    text-align:center;
+
+}
+.imghover{
+ text-align: left;
+ position:relative;
+
+ width:30%;
+ float:left;
+ margin-left:20px;
+ margin-bottom:20px;
+
+}
+.porimghover{
+    background-color: rgba(235,235,235,0);
+    height:100%;
+    width:100%;
+    position:absolute;
+    top:0;
+    left:0;
+   transition: background-color 1s; 
+  
+}
+.imghover:hover .porimghover{
+    background-color: rgba(15,15,15,0.5);  
+}
+.imghover:hover .porimghover i{
+opacity:1;
+}
+.porimghover i{
+       color:rgb(255, 48, 91);
+  position:absolute;
+  bottom:10px;
+  right:10px;
+  opacity: 0;
+
+}
+.imghover img{
+width:100%;
+height:50%;
+}
+
+.Portfolio a{
+     color: rgb(51, 51, 51);
+    padding-left:30px;
+    
+    text-align:center;
+}
+
+.Portfoliolink{
+    margin:30px 0px;
+}
+.Portfolio a:focus {
+    color:rgb(255, 48, 91);
+
+}  
+
+.Portfolio h2{
+    text-align:center;
+
+    Font-size: 40px;
+
+    Font-weight: 800;
+    
+    Line-height: 30px;
+    
+    color: rgb(51, 51, 51);
+    padding-bottom:20px;
+
+}
+
+
+/* icon number */
+.iconnumber{
+    background-color: rgb(241,241,241);
+  
+    text-align: center;
+    overflow: hidden; 
+    height:45%;
+}
+.iconnumberitem{
+   
+    width:25%;
+
+float:left;
+
+}
+.iconnumberitem h3{
+    Font-size: 26px;
+
+Font-weight: 800;
+
+Line-height: 28.6px;
+
+color: rgb(51, 51, 51);
+}
+.iconnumberitem h4{
+    Font-size: 16px;
+
+Font-weight: 600;
+
+Line-height: 17.6px;
+
+ color: rgb(85, 85, 85);
+ padding-top: 10px;
+}
+.iconnumberitem i {
+    color:rgb(255, 48, 91);
+    font-size:25px;
+    margin:30px 0 10 ;
+}
+
+/* Client's Feedback  */
+.Feedbacks h2{
+    text-align: center;
+    Font-size: 40px;
+
+   Font-weight: 800;
+   
+   Line-height: 30px;
+   
+   color: rgb(51, 51, 51);
+   padding-bottom:20px;
+}
+.feedback{
+background-color:rgb(241,241,241);
+    width:70%;
+    margin:auto;
+    margin-top:20px;
+    border-radius: 5px;
+    position:relative;
+}
+.feedbackimg{
+  
+    width:25%;
+    float:left;
+    position:absolute;
+    top:0;
+    bottom:40px;
+    
+   
+}
+.feedbackimg img{
+margin:10px;
+    width:55%;
+    height:47%;
+    border-radius: 50%;
+    position:relative;
+    top:20px;
+    left:20px;
+   
+}
+.feedbacktext .locationicon{
+    color:rgb(196,196,196);
+    float:left;
+}
+
+.feedbacktext h4{
+    color:rgb(196,196,196);
+    float:left;
+}
+.feedbacktext h3{
+    Font-size: 24px;
+
+Font-weight: 600;
+
+Line-height: 26.4px;
+
+color: rgb(92,92,92);
+padding:20px 0px 20px 5px;;
+}
+.feedbacktext{
+    width:70%;
+    float:left;
+    margin:10px;
+    
+}
+.feedbacktext .staricon{
+    color:rgb(241,195,13);
+    padding-top:20px ;
+    padding-bottom: 30px;
+    font-size:13px;
+}
+.feedbacktext h4{
+    padding-left:5px;
+}
+.feedbacktext p , .feedbacktext h4{
+    font-family: 'Roboto', sans-serif;
+
+    Font-size: 16px;
+    
+    Font-weight: 400;
+    
+    Line-height: 25px;
+    
+    color: rgb(85, 85, 85);
+}
+.triangle{
+   
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 150px 150px 0 0;
+    border-color: #ff3059 transparent transparent transparent;
+    float:left;
+   
+
+}
+     /* --------blog-------- */
+     .blog{
+        background-color: rgb(241,241,241);
+       
+        overflow:hidden;
+
+     }
+    
+    
+     .formargin{
+         
+       background-color: rgb(241,241,241);
+        
+         padding: 20px;
+         width:33.33%;
+         float:left;
+         margin-top: 30px;
+       
+        
+     }
+     .blogitem{
+         background-color: white;
+       
+        
+     } 
+
+     .blogitem img{
+         width:100%;
+         height:35%;
+        
+     }
+     .blogitem iframe{
+         width:100%;
+         height:35%;
+     }
+     
+     .blogitem h4 ,.blogitem p{
+        Font-size: 16px;
+     
+        Font-weight: 400;
+        
+        Line-height: 25px;
+        
+       color: rgb(85, 85, 85);
+       margin:10px 15px;
+     }
+     .blogitem a{
+        Font-size: 20px;
+padding:15px;
+        Font-weight: 600;
+        
+        Line-height: 26.4px;
+        
+        color: black;
+      
+     }
+     .blogitem .readmore{Font-size: 16px;
+
+     Font-weight: 400;
+     
+     Line-height: 25px;
+         
+     color: black;
+     padding-left:15px;
+    }
+    .blog h2{  
+        text-align: center;
+         Font-size: 40px;
+
+        Font-weight: 800;
+        
+        Line-height: 30px;
+        
+        color: rgb(51, 51, 51);
+        padding-bottom:20px;
+    }
+     .blog a:hover{
+        color:rgb(255, 48, 91);
+    }
+                /*-------- Contact ------------  */
+ .contact{
+   
+     text-align:center;
+    
+ }        
+.displayblock{
+
+    display: block;
+}
+.blockelement{
+    width:30%;
+    margin:auto;
+    margin-left:14em;
+}
+.blockelement input ,.blockelement textarea{
+    width:200%;
+    padding:10px;
+    color:gray;
+    border-radius: 5px;
+    border:gray solid 1px;
+    margin-top:10px;
+    margin-bottom:10px;
+   
+}
+.blockelement textarea{
+    height:20%;
+}
+.blockelement button{
+    padding:10px;
+    background-color:rgb(255, 48, 91);
+    color:white;
+    border-radius: 5px;
+    border:none;
+}
+
+.inlineelement input{
+    padding:10px;
+    color:gray;
+    border-radius: 5px;
+    border:gray solid 1px;
+    margin-top:30px;
+    margin-bottom:10px;
+    margin-left:20px;
+    width:25%;
+
+}
+.contact button:hover{
+  background-color:red;
+  cursor:not-allowed;
+
+}.contact input:focus{
+    outline:none;
+    border: rgb(255, 48, 91)solid 1px;
+}
+.contact textarea:focus{
+    outline:none;
+    border: rgb(255, 48, 91)solid 1px; 
+}
+.contact h2{
+   
+    Font-size: 40px;
+
+Font-weight: 800;
+
+Line-height: 30px;
+
+color: rgb(51, 51, 51);
+padding-bottom:20px;
+}
+ /* bottom bar */
+ .bottombar{
+    background-color:rgb(51,51,51);
+   
+    text-align:center;
+    color:white;
+    height:30%;
+   
+}
+ .themfair a {
+     
+    color: rgb(255,48,91);
+ 
+}
+.socialmedia{
+    padding-top:30px;
+}
+.bottombar .socialmedia a
+{
+    color:white;
+    padding-left:20px;
+
+   
+   
+}
+.bottombar h4{
+    padding-top:20px;
+}
+.bottombar .themfair a:hover
+{
+text-decoration: underline;
+}
+.bottombar .socialmedia a:hover{
+    color: rgb(255,48,91);
+} 
